@@ -1,1 +1,37 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: green;
+}
+
+h1 {
+  margin: 25px;
+  font-family: "Lobster", cursive;
+  text-shadow: 4px 0 #232931;
+  font-size: 80px;
+  color: #700928;
+}
+.card {
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  height: 500px;
+  padding: 5px;
+  border-radius: 5%;
+}
+.upper {
+  font-size: 110px;
+}
+.center {
+  font-size: 160px;
+  font-family: "Times New Roman", Times, serif;
+}
+.lower {
+  font-size: 110px;
+  transform: rotate(180deg);
+}
